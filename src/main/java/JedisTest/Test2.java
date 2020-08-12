@@ -7,7 +7,7 @@ public class Test2 {
     public static void main(String[] args) {
         JedisPool pool = new JedisPool();
         Jedis resource = pool.getResource();
-        resource.set("4","eee");
+        resource.set("5","fff");
         resource.set("2","bbb");
         resource.set("1","bbb");
 
